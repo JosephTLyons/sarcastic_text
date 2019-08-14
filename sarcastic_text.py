@@ -10,7 +10,7 @@ for character in raw_input("Non-sarcastic text: "):
     else:
         new_text += character.lower()
 
-    if character != ' ':
+    if character.isalpha():
         position += 1
 
 print("Sarcastic text: " + new_text)
