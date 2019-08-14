@@ -3,7 +3,7 @@
 new_text = ""
 position = 0
 
-for character in raw_input("Non-sarcastic text: "):
+for character in raw_input("\nInput:  "):
     if position % 2 == 0:
         new_text += character.upper()
 
@@ -13,4 +13,4 @@ for character in raw_input("Non-sarcastic text: "):
     if character.isalpha():
         position += 1
 
-print("Sarcastic text: " + new_text)
+print("\nOutput: " + new_text + "\n")
