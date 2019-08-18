@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 new_text = ""
 position = 0
 
-for character in raw_input("\nInput:  "):
+for character in input("\nInput:  "):
     if position % 2 == 0:
         new_text += character.upper()
 
